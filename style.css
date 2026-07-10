@@ -10,11 +10,13 @@ body {
 }
  /* RENAME */
 h5 {
-    font-size: clamp(0.85rem, 3vw, 1.1rem);
+    font-size: clamp(0.65rem, 2.5vw, 0.95rem);
     text-align: center;
-    color: #000000; /* Subtle gray so your name stands out more */
-    margin: 8px 0;
+    color: #000000; 
+    margin: 6px 0;
+    padding: 0 15px; /* Prevents text from touching the very edge of the card */
 }
+
 
 
 /* Circuit Background Effect */
