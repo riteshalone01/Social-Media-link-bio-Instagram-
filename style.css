@@ -8,6 +8,14 @@ body {
     background-color: #050505;
     overflow: hidden;
 }
+ /* RENAME */
+h5 {
+    font-size: clamp(0.85rem, 3vw, 1.1rem);
+    text-align: center;
+    color: #000000; /* Subtle gray so your name stands out more */
+    margin: 8px 0;
+}
+
 
 /* Circuit Background Effect */
 .circuit-background {
