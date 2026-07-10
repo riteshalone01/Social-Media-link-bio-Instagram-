@@ -9,13 +9,13 @@ body {
     overflow: hidden;
 }
  /* RENAME */
-h5 {
+ h5 {
     font-size: clamp(0.9rem, 3.5vw, 1.1rem); /* Bumps the size back up so it's easily readable */
     text-align: center;
     color: #000000; 
     line-height: 1.3; /* Keeps the two lines close together */
     margin: 6px 0;
-}
+} */
 
 
 /* Circuit Background Effect */
