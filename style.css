@@ -10,12 +10,15 @@ body {
 }
  /* RENAME */
 h5 {
-    font-size: clamp(0.65rem, 2.5vw, 0.95rem);
+    font-size: clamp(0.55rem, 2.3vw, 1rem); /* Drops the minimum floor lower to prevent line wrapping */
+    letter-spacing: -0.02em;               /* Tightens the space between characters slightly */
+    white-space: nowrap;                   /* Forces the entire string to stay strictly on one line */
     text-align: center;
     color: #000000; 
-    margin: 6px 0;
-    padding: 0 15px; /* Prevents text from touching the very edge of the card */
+    margin: 8px 0;
+    width: 100%;                           /* Ensures full card width utilization */
 }
+
 
 
 
